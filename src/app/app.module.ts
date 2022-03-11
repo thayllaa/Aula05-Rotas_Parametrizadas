@@ -16,7 +16,7 @@ import { RouterModule } from '@angular/router';
     RouterModule.forRoot([
       {path:'', component: HomeComponent},
       {path:'list', component: ListComponent},
-      {path:'list/{index}', component: ListDetailsComponent}
+      {path:'list/:index', component: ListDetailsComponent}
     ])
   ],
   declarations: [ AppComponent, HelloComponent, HomeComponent, ListComponent, ListDetailsComponent ],
