@@ -1,16 +1,9 @@
 <h2> Lista </h2>
 <table border="1">
   <tr>
-    <th> ID </th>
-    <th> TEXTO </th>
-  </tr>
-  <tr *ngFor="let item of list, index as id">
-    <td> 
-      <a [routerLink]="['/list', index]">
-      {{item.id}} 
-    </td>
-    <td> 
-      {{item.text}} 
-    </td>
+    <th> Id </th>
+    <th> Nome </th>
+    <th> Dia da Semana </th>
+    <th> Horário </th>
   </tr>
 </table>
