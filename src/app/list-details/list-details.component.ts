@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { listData } from '../list';
 
 @Component({
   selector: 'app-list-details',
@@ -13,7 +14,8 @@ export class ListDetailsComponent implements OnInit {
 
   ngOnInit() {
     this.route.paramMap.subscribe(
-    )
+      params => (this.item = listData[params.get("index")])
+    );
   }
 
 }
