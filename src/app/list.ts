@@ -1,10 +1,11 @@
 export const listData = [
   {id: 1, text: "Banco de Dados II - DP", date: "Quarta-feira", hour: "9h30 - 13h",
-content: "Objetivo - Apresentar recursos avançados para criação de aplicativos com Banco de dados. <br> Ementa - Tipos de Junções (join). Subconsultas (Subqueries). Criação, implementação e utilização de procedimentos armazenados (stored procedures), gatilhos (triggers), funções, cursores, visões (view). Linguagem de Controle de Dados. Transações. Bancos de dados orientados a objetos. Bancos de dados multimídia."},
-  {id: 2, text: "Desenvolvimento para Servidores I - DP", date: "Segunda-feira", hour: "9h30 - 13h"},
-  {id: 3, text: "Desenvolvimento para Servidores II", date: "Quinta-feira", hour: "9h30 - 13h"},
-  {id: 4, text: "Desenvolvimento de Dispositivos Movéis I", date: "Segunda-feira", hour: "9h30 - 13h"},
-  {id: 5, text: "Negócios, Marketing e Eletrônicos", date: "Quarta-feira", hour: "9h30 - 13h"},
-  {id: 6, text: "Projeto de Prototipagem e Testes de Usabilidade", date: "Sábado", hour: "9h30 - 13h"},
-  {id: 7, text: "Tópicos Especiais II", date: "Sexta-feira", hour: "9h30 - 13h"}
+objective: "Objetivo - Apresentar recursos avançados para criação de aplicativos com Banco de dados.", ement: "Ementa - Tipos de Junções (join). Subconsultas (Subqueries). Criação, implementação e utilização de procedimentos armazenados (stored procedures), gatilhos (triggers), funções, cursores, visões (view). Linguagem de Controle de Dados. Transações. Bancos de dados orientados a objetos. Bancos de dados multimídia."},
+  {id: 2, text: "Desenvolvimento para Servidores I - DP", date: "Segunda-feira", hour: "9h30 - 13h",  objective: "Esta disciplina fornecerá uma visão geral da linguagem script PHP associado a um gerenciador de banco de dados que utilize a linguagem SQL e como usar essas tecnologias para gerar sites dinâmicos. Introduzir práticas de codificação seguras", ement:"PHP histórico e emprego. Instalação e configuração básica do PHP e um IDE. Sintaxe básica do PHP. Usando o PHP como um mecanismo de modelo simples. Panorama das melhores práticas com PHP. Conceitos de programação HTTP. Codificação de caracteres. Localidades, fusos horários e funções de tempo. Strings. Uso de Array e funções de matriz. Orientação a objetos em PHP (Classes, objetos, herança, encapsulamento, polimorfismo, agregação, composição e métodos). Tratamento de exceções de erro. Arquitetura do lado do servidor. Manipulação de dados postados. Enviando e-mail. Sessões e autenticação. Cookies. Arquivo manuseio e armazenamento de dados em arquivos de texto. Gerenciador de banco de dados e suas funções. Frameworks. Web Services, API, RSS, JSON e Ajax. Hospedagem compartilhada."},
+  {id: 3, text: "Desenvolvimento para Servidores II", date: "Quinta-feira", hour: "9h30 - 13h",
+  objective: "Desenvolver um site completo de e-commerce ou outro tipo de negócio na Internet usando uma linguagem apropriada a servidores, banco de dados e padrões de projeto.", ement:"Conceitos e evolução das tecnologias de programação de servidores. Recursos da linguagem escolhida para servidores na Internet. Padrões de projetos. Integração com sistemas (Google Maps API, Twitter, entre outros)"},
+  {id: 4, text: "Desenvolvimento de Dispositivos Movéis I", date: "Segunda-feira", hour: "9h30 - 13h",  objective: "", ement:""},
+  {id: 5, text: "Negócios, Marketing e Eletrônicos", date: "Quarta-feira", hour: "9h30 - 13h",  objective: "", ement:""},
+  {id: 6, text: "Projeto de Prototipagem e Testes de Usabilidade", date: "Sábado", hour: "9h30 - 13h",  objective: "", ement:""},
+  {id: 7, text: "Tópicos Especiais II", date: "Sexta-feira", hour: "9h30 - 13h",  objective: "", ement:""}
 ]
